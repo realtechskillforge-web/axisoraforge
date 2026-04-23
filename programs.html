@@ -1,0 +1,264 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Programs — Axisora Forge</title><meta name="keywords" content="Axisora Forge, technical academy, applied AI, data intelligence, generative AI, Java backend, mentor-guided learning"/><meta property="og:site_name" content="Axisora Forge"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Axisora Forge — Focused technical learning academy"/><meta name="twitter:description" content="Axisora Forge Brand Studio creates a premium technical academy website and logo."/><meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cefceda7-c1ee-41a0-8266-3ad48615c57d/id-preview-0f4341b0--f534043b-f89d-48b6-b2f1-0d4024fbfe30.lovable.app-1776916249173.png"/><meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cefceda7-c1ee-41a0-8266-3ad48615c57d/id-preview-0f4341b0--f534043b-f89d-48b6-b2f1-0d4024fbfe30.lovable.app-1776916249173.png"/><meta name="description" content="Role-based programs in Applied AI Systems Engineering, Data Intelligence, Generative AI Product Engineering, and AI-Enabled Java Backend Engineering — built around mentor support and applied practice."/><meta property="og:title" content="Programs — Axisora Forge"/><meta property="og:description" content="Professionally structured role-based programs for modern technology careers."/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="assets/styles-DiotOkAS.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&amp;display=swap"/>
+<style>
+	@font-face {
+		font-family: 'CameraPlainVariable';
+		src: url('https://cdn.gpteng.co/mcp-widgets/v1/fonts/CameraPlainVariable.woff2') format('woff2');
+		font-weight: 100 900;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	#lovable-badge {
+		--badge-bg: #1b1b1b;
+		--badge-text: #c5c1b9;
+		--badge-text-hover: #dcdad5;
+		--badge-radius: 6px;
+		--badge-padding: 8px;
+		--badge-gap: 6px;
+		--badge-shadow: 
+			0 0 0 1px rgba(0, 0, 0, 0.88),
+			0 1px 0 0 rgba(0, 0, 0, 0.04),
+			0 2px 2px -1px rgba(0, 0, 0, 0.08),
+			0 4px 4px -2px rgba(0, 0, 0, 0.08),
+			0 8px 8px -4px rgba(0, 0, 0, 0.08),
+			0 16px 16px -8px rgba(0, 0, 0, 0.08);
+		--badge-transition-duration: 0.2s;
+		--badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+		--focus-color: #575ECF;
+		--focus-offset: 2px;
+		--focus-width: 2px;
+		
+		position: fixed;
+		bottom: 12px;
+		right: 12px;
+		height: 24px;
+		display: flex;
+		align-items: center;
+		z-index: 1000000;
+		background-color: var(--badge-bg);
+		color: var(--badge-text);
+		border-radius: var(--badge-radius);
+		box-shadow: var(--badge-shadow);
+		font-size: 12px;
+		font-family: CameraPlainVariable, "CameraPlainVariable Fallback", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		font-weight: 400 !important;
+		text-transform: none !important;
+		font-feature-settings: normal !important;
+		transform: translateZ(0);
+		will-change: transform, opacity;
+	}
+
+	#lovable-badge-cta {
+		display: flex;
+		align-items: center;
+		gap: var(--badge-gap);
+		padding: 0 var(--badge-padding);
+		height: 100%;
+		color: inherit;
+		text-decoration: none;
+		white-space: nowrap;
+		border-radius: var(--badge-radius) 0 0 var(--badge-radius);
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-cta:hover {
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--badge-text-hover);
+	}
+
+	#lovable-badge-cta:active {
+		transform: scale(0.98);
+	}
+
+	#lovable-badge-cta:focus {
+		outline: none;
+	}
+
+	#lovable-badge-cta:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: var(--focus-offset);
+		z-index: 1;
+	}
+
+	#lovable-badge-text {
+		line-height: 1;
+	}
+
+	#lovable-badge-divider {
+		width: 1px;
+		height: 24px;
+		background-color: rgba(255, 255, 255, 0.04);
+		flex-shrink: 0;
+	}
+
+	#lovable-badge-close {
+		width: 24px;
+		height: 24px;
+		min-width: 24px;
+		min-height: 24px;
+		cursor: pointer;
+		background: none;
+		border: none;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0 var(--badge-radius) var(--badge-radius) 0;
+		flex-shrink: 0;
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-close:hover {
+		background: rgba(255, 255, 255, 0.04);
+	}
+
+	#lovable-badge-close:active {
+		transform: scale(0.92);
+	}
+
+	#lovable-badge-close:focus {
+		outline: none;
+	}
+
+	#lovable-badge-close:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: calc(var(--focus-offset) * -1);
+		z-index: 1;
+	}
+
+	#lovable-badge-close svg path {
+		fill: var(--badge-text);
+		transition: fill var(--badge-transition-duration) ease;
+	}
+
+	#lovable-badge-close:hover svg path {
+		fill: var(--badge-text-hover);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		#lovable-badge-cta,
+		#lovable-badge-close,
+		#lovable-badge-close svg path {
+			transition: none;
+		}
+		
+		#lovable-badge-cta:active,
+		#lovable-badge-close:active {
+			transform: none;
+		}
+	}
+
+	@media (prefers-contrast: high) {
+		#lovable-badge {
+			--badge-bg: #000;
+			--badge-text: #fff;
+			--badge-text-hover: #fff;
+			border: 2px solid currentColor;
+		}
+		
+		#lovable-badge-cta:focus-visible,
+		#lovable-badge-close:focus-visible {
+			outline-width: 3px;
+		}
+	}
+</style>
+</head><body><div class="flex min-h-screen flex-col"><header class="sticky top-0 z-40 border-b border-border/70 bg-background/85 backdrop-blur-md"><div class="container-prose flex h-16 items-center justify-between md:h-20"><a aria-label="Axisora Forge — Home" href="index.html" class="shrink-0"><span class="inline-flex items-center gap-2.5 " style="color:var(--color-primary)"><span class="h-7 w-7 shrink-0"><svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-full w-full"><path d="M8 38 L24 8 L40 38" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14.5 30 L33.5 30" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"></path><path d="M24 40 L24 18" stroke="var(--color-ember)" stroke-width="2.6" stroke-linecap="round"></path><path d="M19.5 22.5 L24 17 L28.5 22.5" stroke="var(--color-ember)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><span class="flex flex-col leading-none"><span class="text-[15px] font-semibold tracking-[0.14em]" style="font-family:var(--font-sans)">AXISORA FORGE</span><span class="mt-1 text-[9px] font-medium tracking-[0.32em] text-muted-foreground">ACADEMY</span></span></span></a><nav class="hidden items-center gap-8 md:flex"><a href="index.html" class="text-[13.5px] font-medium text-muted-foreground transition-colors hover:text-foreground">Home</a><a href="about.html" class="text-[13.5px] font-medium text-muted-foreground transition-colors hover:text-foreground">About</a><a class="text-[13.5px] font-medium text-muted-foreground transition-colors hover:text-foreground text-foreground" href="programs.html" data-status="active" aria-current="page">Programs</a><a href="program-directions.html" class="text-[13.5px] font-medium text-muted-foreground transition-colors hover:text-foreground">Directions</a><a href="mentors.html" class="text-[13.5px] font-medium text-muted-foreground transition-colors hover:text-foreground">Mentors</a><a href="support.html" class="text-[13.5px] font-medium text-muted-foreground transition-colors hover:text-foreground">Support</a><a href="support.html" class="ml-2 inline-flex items-center justify-center rounded-md border border-foreground bg-foreground px-4 py-2 text-[13px] font-medium text-background transition-colors hover:bg-foreground/90">Talk to a Mentor</a></nav><button type="button" class="inline-flex h-10 w-10 items-center justify-center rounded-md text-foreground md:hidden" aria-label="Toggle menu" aria-expanded="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"></path></svg></button></div></header><main class="flex-1"><!--$--><section class="relative overflow-hidden border-b border-border bg-paper"><div aria-hidden="true" class="pointer-events-none absolute right-0 top-1/2 hidden h-[420px] w-[460px] -translate-y-1/2 md:block lg:w-[540px]"><div class="absolute inset-0" style="background:radial-gradient(closest-side at 70% 50%, color-mix(in oklab, var(--color-ember) 10%, transparent) 0%, transparent 72%)"></div><svg viewBox="0 0 540 420" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute inset-0 h-full w-full" style="color:var(--color-foreground);opacity:0.22;-webkit-mask-image:linear-gradient(to left, rgba(0,0,0,1) 35%, rgba(0,0,0,0.55) 70%, rgba(0,0,0,0) 100%);mask-image:linear-gradient(to left, rgba(0,0,0,1) 35%, rgba(0,0,0,0.55) 70%, rgba(0,0,0,0) 100%)"><g stroke-width="1.2" stroke="currentColor" fill="none" stroke-linecap="round"><g><line x1="120" y1="50" x2="120" y2="370" opacity="0.55"></line><line x1="111" y1="70" x2="129" y2="70" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="107" y1="112" x2="133" y2="112" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="103" y1="154" x2="137" y2="154" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="111" y1="196" x2="129" y2="196" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="107" y1="238" x2="133" y2="238" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="103" y1="280" x2="137" y2="280" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="111" y1="322" x2="129" y2="322" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line></g><g><line x1="220" y1="50" x2="220" y2="370" opacity="0.55"></line><line x1="211" y1="70" x2="229" y2="70" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="207" y1="112" x2="233" y2="112" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="203" y1="154" x2="237" y2="154" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="211" y1="196" x2="229" y2="196" opacity="0.7" stroke="var(--color-ember)" stroke-width="1.6"></line><line x1="207" y1="238" x2="233" y2="238" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="203" y1="280" x2="237" y2="280" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="211" y1="322" x2="229" y2="322" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line></g><g><line x1="320" y1="50" x2="320" y2="370" opacity="0.55"></line><line x1="311" y1="70" x2="329" y2="70" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="307" y1="112" x2="333" y2="112" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="303" y1="154" x2="337" y2="154" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="311" y1="196" x2="329" y2="196" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="307" y1="238" x2="333" y2="238" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="303" y1="280" x2="337" y2="280" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="311" y1="322" x2="329" y2="322" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line></g><g><line x1="420" y1="50" x2="420" y2="370" opacity="0.55"></line><line x1="411" y1="70" x2="429" y2="70" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="407" y1="112" x2="433" y2="112" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="403" y1="154" x2="437" y2="154" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="411" y1="196" x2="429" y2="196" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="407" y1="238" x2="433" y2="238" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="403" y1="280" x2="437" y2="280" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line><line x1="411" y1="322" x2="429" y2="322" opacity="0.7" stroke="currentColor" stroke-width="1.2"></line></g></g></svg></div><div class="container-prose relative py-24 md:py-32"><p class="eyebrow">Programs</p><h1 class="mt-6 max-w-4xl text-balance text-[42px] leading-[1.05] md:text-[60px]">Professionally structured role-based programs for<!-- --> <!-- -->modern<!-- --> <span class="italic" style="color:var(--color-ember);font-family:var(--font-serif)">technology careers</span>.</h1><p class="mt-8 max-w-3xl text-[16.5px] leading-relaxed text-muted-foreground">Axisora Forge offers a focused portfolio of role-based programs designed to build strong foundations, practical technical capability, and long-term relevance. Each program is structured to help learners grow through mentor-guided learning, meaningful implementation, project-based practice, and career-oriented preparation.</p><div class="mt-9 flex flex-wrap gap-3"><a href="programs.html#applied-ai" class="inline-flex items-center justify-center rounded-md bg-foreground px-5 py-3 text-[14px] font-medium text-background hover:bg-foreground/90">Explore Programs</a><a href="programs.html#structure" class="inline-flex items-center justify-center rounded-md border border-border-strong bg-surface px-5 py-3 text-[14px] font-medium text-foreground hover:bg-muted">View Program Structure</a></div></div></section><section class="bg-background "><div class="container-prose py-20 md:py-28"><div class="max-w-3xl"><p class="eyebrow mb-4">Tracks</p><h2 class="text-balance text-3xl leading-[1.1] md:text-[44px]">One academy standard, shaped for different stages of growth</h2><p class="mt-5 max-w-2xl text-[15.5px] leading-relaxed text-muted-foreground">Every program at Axisora Forge is built with the same standard of seriousness, quality, and technical depth. What changes is the pace, support style, and learning flow so that each learner can progress in a way that suits their stage more effectively.</p></div><div class="mt-12 grid gap-6 md:grid-cols-2"><div class="rounded-lg border border-border bg-surface p-8"><p class="eyebrow mb-3">Student Track</p><h3 class="text-[22px]">Steady reinforcement, guided pace</h3><p class="mt-3 text-[14.5px] leading-relaxed text-muted-foreground">Designed with stronger guidance, steady reinforcement, and a clear build from fundamentals to practical work.</p></div><div class="rounded-lg border border-border bg-surface p-8"><p class="eyebrow mb-3">Professional Track</p><h3 class="text-[22px]">Sharper pace, deeper execution</h3><p class="mt-3 text-[14.5px] leading-relaxed text-muted-foreground">Designed with a sharper pace, stronger workflow focus, and deeper execution for learners with more immediate professional goals.</p></div></div></div></section><section class="bg-paper "><div class="container-prose py-20 md:py-28"><div class="space-y-20"><article id="applied-ai" class="relative scroll-mt-28 overflow-hidden border-t border-border pt-14"><div aria-hidden="true" class="pointer-events-none absolute inset-y-0 right-0 hidden w-[60%] md:block" style="background-image:url(assets/program-ai-B-2zqxXT.jpg);background-size:cover;background-position:center right;opacity:0.32;-webkit-mask-image:linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 45%, rgba(0,0,0,0) 95%);mask-image:linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 45%, rgba(0,0,0,0) 95%)"></div><div class="relative grid gap-12 md:grid-cols-12"><div class="md:col-span-5"><p class="text-[11px] font-medium tracking-[0.22em] text-muted-foreground">PROGRAM 0<!-- -->1</p><h2 class="mt-3 text-[28px] leading-tight md:text-[34px]">Applied AI Systems Engineering</h2><p class="mt-5 text-[15.5px] leading-relaxed text-foreground/85">Build strong machine learning capability with clear foundations, practical implementation, and applied AI understanding.</p><div class="mt-7"><p class="eyebrow mb-2">Who It Is For</p><p class="text-[14.5px] leading-relaxed text-muted-foreground">This program is designed for learners who want a strong and well-guided entry into applied AI and machine learning.</p></div></div><div class="space-y-8 md:col-span-7"><div><p class="eyebrow mb-3">Key Focus Areas</p><ul class="grid gap-2 md:grid-cols-2"><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Python for applied AI workflows</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Data preparation and feature understanding</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Supervised learning and model evaluation</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Model improvement and interpretation</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Practical workflow understanding in modern AI settings</li></ul></div><div><p class="eyebrow mb-3">Applied Project Environments</p><p class="text-[13.5px] leading-relaxed text-muted-foreground">Each program includes guided practical builds shaped around realistic technical scenarios so learners can strengthen implementation confidence through work that feels relevant, structured, and professionally meaningful.</p><ul class="mt-5 space-y-4"><li class="rounded-md border border-border bg-paper/85 p-5 backdrop-blur-[1px]"><div class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span><div><h4 class="text-[15.5px] font-medium leading-snug">Customer Retention Intelligence Workflow</h4><p class="mt-1.5 text-[13.5px] leading-relaxed text-muted-foreground">Build a machine learning solution that studies customer behavior, prepares useful features, evaluates churn risk, and supports business understanding through model output and reporting flow.</p></div></div></li><li class="rounded-md border border-border bg-paper/85 p-5 backdrop-blur-[1px]"><div class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span><div><h4 class="text-[15.5px] font-medium leading-snug">Operational Ticket Classification Pipeline</h4><p class="mt-1.5 text-[13.5px] leading-relaxed text-muted-foreground">Create an ML workflow that groups support tickets into the right categories for better triage, reporting, and internal process support.</p></div></div></li></ul></div><div class="grid gap-6 md:grid-cols-2"><div><p class="eyebrow mb-3">Roles You Can Aim For</p><ul class="space-y-1.5 text-[14px] text-muted-foreground"><li>· <!-- -->AI/ML Intern</li><li>· <!-- -->Junior Machine Learning Engineer</li><li>· <!-- -->Applied AI Analyst</li><li>· <!-- -->AI Implementation Associate</li></ul></div><div><p class="eyebrow mb-3">Outcome</p><p class="text-[14px] leading-relaxed text-muted-foreground">Build stronger capability in core machine learning workflows, guided implementation, and practical AI reasoning.</p></div></div></div></div></article><article id="data-intelligence" class="relative scroll-mt-28 overflow-hidden border-t border-border pt-14"><div aria-hidden="true" class="pointer-events-none absolute inset-y-0 right-0 hidden w-[60%] md:block" style="background-image:url(assets/program-data-cQeaVnrr.jpg);background-size:cover;background-position:center right;opacity:0.32;-webkit-mask-image:linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 45%, rgba(0,0,0,0) 95%);mask-image:linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 45%, rgba(0,0,0,0) 95%)"></div><div class="relative grid gap-12 md:grid-cols-12"><div class="md:col-span-5"><p class="text-[11px] font-medium tracking-[0.22em] text-muted-foreground">PROGRAM 0<!-- -->2</p><h2 class="mt-3 text-[28px] leading-tight md:text-[34px]">Data Intelligence Engineering</h2><p class="mt-5 text-[15.5px] leading-relaxed text-foreground/85">Develop strong analytical skills through structured data work, reporting discipline, and decision-focused implementation.</p><div class="mt-7"><p class="eyebrow mb-2">Who It Is For</p><p class="text-[14.5px] leading-relaxed text-muted-foreground">This program is built for learners who want to use data in a more capable and practical way.</p></div></div><div class="space-y-8 md:col-span-7"><div><p class="eyebrow mb-3">Key Focus Areas</p><ul class="grid gap-2 md:grid-cols-2"><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Data preparation and data quality</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>SQL for analysis and reporting</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Exploratory analysis and insight building</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Dashboard thinking and communication of findings</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Analytics workflows linked to practical business use cases</li></ul></div><div><p class="eyebrow mb-3">Applied Project Environments</p><p class="text-[13.5px] leading-relaxed text-muted-foreground">Each program includes guided practical builds shaped around realistic technical scenarios so learners can strengthen implementation confidence through work that feels relevant, structured, and professionally meaningful.</p><ul class="mt-5 space-y-4"><li class="rounded-md border border-border bg-paper/85 p-5 backdrop-blur-[1px]"><div class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span><div><h4 class="text-[15.5px] font-medium leading-snug">Sales Performance Intelligence Environment</h4><p class="mt-1.5 text-[13.5px] leading-relaxed text-muted-foreground">Turn sales and regional data into a structured analytics system with trend tracking, category review, performance comparison, and decision-support reporting.</p></div></div></li><li class="rounded-md border border-border bg-paper/85 p-5 backdrop-blur-[1px]"><div class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span><div><h4 class="text-[15.5px] font-medium leading-snug">Customer Segmentation and Retention Analytics Study</h4><p class="mt-1.5 text-[13.5px] leading-relaxed text-muted-foreground">Analyze customer behavior to identify clear segments, retention risks, and useful patterns for planning, communication, and engagement strategy.</p></div></div></li></ul></div><div class="grid gap-6 md:grid-cols-2"><div><p class="eyebrow mb-3">Roles You Can Aim For</p><ul class="space-y-1.5 text-[14px] text-muted-foreground"><li>· <!-- -->Data Analyst</li><li>· <!-- -->BI Analyst</li><li>· <!-- -->Reporting Analyst</li><li>· <!-- -->Junior Data Intelligence Associate</li></ul></div><div><p class="eyebrow mb-3">Outcome</p><p class="text-[14px] leading-relaxed text-muted-foreground">Develop stronger analytical capability, reporting discipline, and practical experience with decision-focused data work.</p></div></div></div></div></article><article id="generative-ai" class="relative scroll-mt-28 overflow-hidden border-t border-border pt-14"><div aria-hidden="true" class="pointer-events-none absolute inset-y-0 right-0 hidden w-[60%] md:block" style="background-image:url(assets/program-genai-BhVT0GRZ.jpg);background-size:cover;background-position:center right;opacity:0.32;-webkit-mask-image:linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 45%, rgba(0,0,0,0) 95%);mask-image:linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 45%, rgba(0,0,0,0) 95%)"></div><div class="relative grid gap-12 md:grid-cols-12"><div class="md:col-span-5"><p class="text-[11px] font-medium tracking-[0.22em] text-muted-foreground">PROGRAM 0<!-- -->3</p><h2 class="mt-3 text-[28px] leading-tight md:text-[34px]">Generative AI Product Engineering</h2><p class="mt-5 text-[15.5px] leading-relaxed text-foreground/85">Learn to build useful generative AI workflows and AI-powered product experiences with clarity and practical direction.</p><div class="mt-7"><p class="eyebrow mb-2">Who It Is For</p><p class="text-[14.5px] leading-relaxed text-muted-foreground">This program is designed for learners who want to understand generative AI in a clear, grounded, and useful way.</p></div></div><div class="space-y-8 md:col-span-7"><div><p class="eyebrow mb-3">Key Focus Areas</p><ul class="grid gap-2 md:grid-cols-2"><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Generative AI fundamentals</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Prompt design and response structure</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Workflow design for AI-assisted tasks</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Document, content, and information assistance patterns</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Application thinking for AI-powered products</li></ul></div><div><p class="eyebrow mb-3">Applied Project Environments</p><p class="text-[13.5px] leading-relaxed text-muted-foreground">Each program includes guided practical builds shaped around realistic technical scenarios so learners can strengthen implementation confidence through work that feels relevant, structured, and professionally meaningful.</p><ul class="mt-5 space-y-4"><li class="rounded-md border border-border bg-paper/85 p-5 backdrop-blur-[1px]"><div class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span><div><h4 class="text-[15.5px] font-medium leading-snug">Document Intelligence Assistant Platform</h4><p class="mt-1.5 text-[13.5px] leading-relaxed text-muted-foreground">Build a system that helps users work with uploaded documents through retrieval, summarization, structured responses, and useful information flow.</p></div></div></li><li class="rounded-md border border-border bg-paper/85 p-5 backdrop-blur-[1px]"><div class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span><div><h4 class="text-[15.5px] font-medium leading-snug">AI-Assisted Content Operations Framework</h4><p class="mt-1.5 text-[13.5px] leading-relaxed text-muted-foreground">Create a workflow that supports content planning, drafting, review flow, and output preparation for teams that work with content at scale.</p></div></div></li></ul></div><div class="grid gap-6 md:grid-cols-2"><div><p class="eyebrow mb-3">Roles You Can Aim For</p><ul class="space-y-1.5 text-[14px] text-muted-foreground"><li>· <!-- -->Generative AI Developer</li><li>· <!-- -->Junior GenAI Engineer</li><li>· <!-- -->AI Workflow Builder</li><li>· <!-- -->AI Product Implementation Associate</li></ul></div><div><p class="eyebrow mb-3">Outcome</p><p class="text-[14px] leading-relaxed text-muted-foreground">Develop grounded understanding of generative AI use patterns and the ability to build guided AI-powered workflows.</p></div></div></div></div></article><article id="java-backend" class="relative scroll-mt-28 overflow-hidden border-t border-border pt-14"><div aria-hidden="true" class="pointer-events-none absolute inset-y-0 right-0 hidden w-[60%] md:block" style="background-image:url(assets/program-java-U_MahVxn.jpg);background-size:cover;background-position:center right;opacity:0.32;-webkit-mask-image:linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 45%, rgba(0,0,0,0) 95%);mask-image:linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 45%, rgba(0,0,0,0) 95%)"></div><div class="relative grid gap-12 md:grid-cols-12"><div class="md:col-span-5"><p class="text-[11px] font-medium tracking-[0.22em] text-muted-foreground">PROGRAM 0<!-- -->4</p><h2 class="mt-3 text-[28px] leading-tight md:text-[34px]">AI-Enabled Java Backend Engineering</h2><p class="mt-5 text-[15.5px] leading-relaxed text-foreground/85">Build modern Java backend systems with strong engineering foundations, production-oriented structure, and AI-linked application features.</p><div class="mt-7"><p class="eyebrow mb-2">Who It Is For</p><p class="text-[14.5px] leading-relaxed text-muted-foreground">This program is designed for learners who want Java to remain a strong and future-relevant engineering path.</p></div></div><div class="space-y-8 md:col-span-7"><div><p class="eyebrow mb-3">Key Focus Areas</p><ul class="grid gap-2 md:grid-cols-2"><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Core Java and object-oriented design</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Backend architecture and service design</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Spring Boot development</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>APIs, persistence, and backend workflows</li><li class="flex gap-2.5 text-[14px] text-muted-foreground"><span class="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/60" aria-hidden="true"></span>Security and AI-linked backend features</li></ul></div><div><p class="eyebrow mb-3">Applied Project Environments</p><p class="text-[13.5px] leading-relaxed text-muted-foreground">Each program includes guided practical builds shaped around realistic technical scenarios so learners can strengthen implementation confidence through work that feels relevant, structured, and professionally meaningful.</p><ul class="mt-5 space-y-4"><li class="rounded-md border border-border bg-paper/85 p-5 backdrop-blur-[1px]"><div class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span><div><h4 class="text-[15.5px] font-medium leading-snug">Order and Inventory Management Service Platform</h4><p class="mt-1.5 text-[13.5px] leading-relaxed text-muted-foreground">Design a backend system for catalog, inventory, order flow, role-based actions, and service-oriented APIs within a well-structured application setup.</p></div></div></li><li class="rounded-md border border-border bg-paper/85 p-5 backdrop-blur-[1px]"><div class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span><div><h4 class="text-[15.5px] font-medium leading-snug">Support Operations Backend with Intelligent Query Layer</h4><p class="mt-1.5 text-[13.5px] leading-relaxed text-muted-foreground">Build a backend service for support operations with AI-assisted query handling, knowledge access, and structured service workflows.</p></div></div></li></ul></div><div class="grid gap-6 md:grid-cols-2"><div><p class="eyebrow mb-3">Roles You Can Aim For</p><ul class="space-y-1.5 text-[14px] text-muted-foreground"><li>· <!-- -->Java Backend Developer</li><li>· <!-- -->Backend Developer</li><li>· <!-- -->Junior API Developer</li><li>· <!-- -->AI-Integrated Backend Associate</li></ul></div><div><p class="eyebrow mb-3">Outcome</p><p class="text-[14px] leading-relaxed text-muted-foreground">Build stronger backend engineering capability, better API understanding, and more practical system design confidence.</p></div></div></div></div></article></div></div></section><section class="bg-background "><div class="container-prose py-20 md:py-28"><div id="structure" class="scroll-mt-24"></div><div class="max-w-3xl"><p class="eyebrow mb-4">Program Structure</p><h2 class="text-balance text-3xl leading-[1.1] md:text-[44px]">How each program is built</h2><p class="mt-5 max-w-2xl text-[15.5px] leading-relaxed text-muted-foreground">Every program follows a clear structure so that learning feels organized, practical, and meaningful from start to finish.</p></div><div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4"><div class="rounded-md border border-border bg-surface p-6"><p class="text-[11px] font-medium tracking-[0.2em] text-ember">STAGE 0<!-- -->1</p><h3 class="mt-3 text-[18px]">Foundation</h3><p class="mt-2 text-[13.5px] leading-relaxed text-muted-foreground">Learners begin with the core concepts, tools, and understanding needed to build properly on the subject.</p></div><div class="rounded-md border border-border bg-surface p-6"><p class="text-[11px] font-medium tracking-[0.2em] text-ember">STAGE 0<!-- -->2</p><h3 class="mt-3 text-[18px]">Applied Development</h3><p class="mt-2 text-[13.5px] leading-relaxed text-muted-foreground">Learners move into guided implementation, regular practice, and stronger control over tools, logic, and workflows.</p></div><div class="rounded-md border border-border bg-surface p-6"><p class="text-[11px] font-medium tracking-[0.2em] text-ember">STAGE 0<!-- -->3</p><h3 class="mt-3 text-[18px]">Project Architecture</h3><p class="mt-2 text-[13.5px] leading-relaxed text-muted-foreground">Each program includes carefully chosen build environments that help learners apply the subject in meaningful and practical contexts.</p></div><div class="rounded-md border border-border bg-surface p-6"><p class="text-[11px] font-medium tracking-[0.2em] text-ember">STAGE 0<!-- -->4</p><h3 class="mt-3 text-[18px]">Career Lab Integration</h3><p class="mt-2 text-[13.5px] leading-relaxed text-muted-foreground">Learners receive structured support in portfolio direction, resume quality, interview preparation, mock interviews, and role-readiness thinking.</p></div></div></div></section><section class="bg-paper "><div class="container-prose py-20 md:py-28"><div class="grid gap-16 md:grid-cols-12"><div class="md:col-span-6"><p class="eyebrow">Outcomes</p><h3 class="mt-3 text-[26px] leading-snug">What learners can expect from every program</h3><ul class="mt-6 space-y-3 text-[14.5px] text-muted-foreground"><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span>Clear progression from fundamentals to practical implementation</li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span>Guided learning with mentor support</li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span>Meaningful implementation experience connected to the subject</li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span>Career Lab support for portfolio, resume, interview, and mock interview readiness</li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" aria-hidden="true"></span>A learning environment shaped with seriousness, clarity, and professional intent</li></ul></div><div class="md:col-span-6"><p class="eyebrow">Trust Signals</p><h3 class="mt-3 text-[26px] leading-snug">What strengthens every program at Axisora Forge</h3><ul class="mt-6 space-y-3 text-[14.5px] text-muted-foreground"><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/50" aria-hidden="true"></span>Role-focused program design connected to meaningful technical directions</li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/50" aria-hidden="true"></span>Mentor-guided learning with practical implementation support</li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/50" aria-hidden="true"></span>Project-based practice built around structured and relevant use cases</li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/50" aria-hidden="true"></span>Career Lab support for portfolio, resume, interview, and mock interview readiness</li><li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/50" aria-hidden="true"></span>Curriculum review to stay aligned with changing tools, workflows, and practical expectations</li></ul></div></div><div class="mt-20 grid gap-12 border-t border-border pt-12 md:grid-cols-2"><div><p class="eyebrow">Quality</p><h3 class="mt-3 text-[24px]">Program quality and review</h3><p class="mt-4 text-[14.5px] leading-relaxed text-muted-foreground">Each program is reviewed to maintain relevance in tools, workflows, learning progression, and project quality. This helps ensure that the learning experience remains clear, practical, and aligned with changing technical expectations over time.</p></div><div><p class="eyebrow">Trust</p><h3 class="mt-3 text-[24px]">Built with seriousness, taught with purpose</h3><p class="mt-4 text-[14.5px] leading-relaxed text-muted-foreground">Axisora Forge is designed with deep respect for both learning and teaching. The programs are built to support real learner growth while also creating an environment where experienced mentors, engineers, and consultants can contribute to something that is clear in structure, strong in quality, and meaningful in practice.</p></div></div></div></section><section class="border-y border-border bg-foreground text-background"><div class="container-prose py-24 md:py-32"><div class="mx-auto max-w-3xl text-center"><p class="eyebrow text-background/60">Explore</p><h2 class="mt-4 text-balance text-[34px] leading-[1.1] text-background md:text-[48px]">Explore the program portfolio.</h2><p class="mx-auto mt-6 max-w-2xl text-[15.5px] leading-relaxed text-background/75">Each program is designed to do more than introduce a subject. It is designed to help learners build capability, strengthen implementation confidence, and move toward meaningful technical roles with clearer direction.</p><div class="mt-10 flex flex-wrap items-center justify-center gap-3"><a href="support.html" class="inline-flex items-center justify-center rounded-md bg-background px-5 py-3 text-[14px] font-medium text-foreground hover:bg-background/90">Explore Student Track</a><a href="support.html" class="inline-flex items-center justify-center rounded-md border border-background/40 px-5 py-3 text-[14px] font-medium text-background hover:bg-background/10">Explore Professional Track</a><a href="support.html" class="inline-flex items-center justify-center rounded-md border border-background/20 px-5 py-3 text-[14px] font-medium text-background/85 hover:bg-background/10">Speak with the Academy</a></div></div></div></section><!--/$--></main><footer class="mt-32 border-t border-border bg-paper"><div class="container-prose grid gap-12 py-16 md:grid-cols-12"><div class="md:col-span-5"><span class="inline-flex items-center gap-2.5 " style="color:var(--color-primary)"><span class="h-7 w-7 shrink-0"><svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-full w-full"><path d="M8 38 L24 8 L40 38" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14.5 30 L33.5 30" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"></path><path d="M24 40 L24 18" stroke="var(--color-ember)" stroke-width="2.6" stroke-linecap="round"></path><path d="M19.5 22.5 L24 17 L28.5 22.5" stroke="var(--color-ember)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><span class="flex flex-col leading-none"><span class="text-[15px] font-semibold tracking-[0.14em]" style="font-family:var(--font-sans)">AXISORA FORGE</span><span class="mt-1 text-[9px] font-medium tracking-[0.32em] text-muted-foreground">ACADEMY</span></span></span><p class="mt-5 max-w-sm text-[13.5px] leading-relaxed text-muted-foreground">A focused learning academy for people who want technical education to feel clear, practical, and professionally meaningful.</p></div><div class="md:col-span-3"><p class="eyebrow mb-4">Programs</p><ul class="space-y-2.5 text-[13.5px]"><li><a class="text-muted-foreground hover:text-foreground active" href="programs.html" data-status="active" aria-current="page">Applied AI Systems Engineering</a></li><li><a class="text-muted-foreground hover:text-foreground active" href="programs.html" data-status="active" aria-current="page">Data Intelligence Engineering</a></li><li><a class="text-muted-foreground hover:text-foreground active" href="programs.html" data-status="active" aria-current="page">Generative AI Product Engineering</a></li><li><a class="text-muted-foreground hover:text-foreground active" href="programs.html" data-status="active" aria-current="page">AI-Enabled Java Backend Engineering</a></li></ul></div><div class="md:col-span-2"><p class="eyebrow mb-4">Academy</p><ul class="space-y-2.5 text-[13.5px]"><li><a href="about.html" class="text-muted-foreground hover:text-foreground">About</a></li><li><a href="mentors.html" class="text-muted-foreground hover:text-foreground">Mentors</a></li><li><a href="program-directions.html" class="text-muted-foreground hover:text-foreground">Directions</a></li></ul></div><div class="md:col-span-2"><p class="eyebrow mb-4">Get In Touch</p><ul class="space-y-2.5 text-[13.5px]"><li><a href="support.html" class="text-muted-foreground hover:text-foreground">Support</a></li><li><a href="support.html" class="text-muted-foreground hover:text-foreground">Talk to a Mentor</a></li></ul></div></div><div class="border-t border-border"><div class="container-prose flex flex-col items-start justify-between gap-2 py-6 text-[12px] text-muted-foreground md:flex-row md:items-center"><p>© <!-- -->2026<!-- --> Axisora Forge. All rights reserved.</p><p class="tracking-wider">MASTER SKILLS · BUILD CONFIDENCE · GET AHEAD</p></div></div></footer></div><script class="$tsr" id="$tsr-stream-barrier">(self.$R=self.$R||{})["tsr"]=[];self.$_TSR={h(){this.hydrated=!0,this.c()},e(){this.streamEnded=!0,this.c()},c(){this.hydrated&&this.streamEnded&&(delete self.$_TSR,delete self.$R.tsr)},p(e){this.initialized?e():this.buffer.push(e)},buffer:[]};$_TSR.router=($R=>$R[0]={manifest:$R[1]={routes:$R[2]={__root__:$R[3]={preloads:$R[4]=["/assets/index-DOcTAZll.js"],assets:$R[5]=[$R[6]={tag:"script",attrs:$R[7]={type:"module",async:!0},children:"import(\"/assets/index-DOcTAZll.js\")"}]},"/programs":$R[8]={preloads:$R[9]=["/assets/programs-DTtrnEro.js","/assets/program-java-CKWuVtEW.js","/assets/heading-accent-DtdyYyD3.js","/assets/hero-watermark-C1WF87Hs.js"]}}},matches:$R[10]=[$R[11]={i:"__root__ ",u:1776943642317,s:"success",ssr:!0},$R[12]={i:" programs programs",u:1776943642317,s:"success",ssr:!0}],lastMatchId:" programs programs"})($R["tsr"]);$_TSR.e();document.currentScript.remove()</script><script type="module" async="">import("/assets/index-DOcTAZll.js")</script>
+<aside 
+	id="lovable-badge" 
+	role="complementary"
+	dir="ltr"
+	lang="en"
+	aria-label="Edit with Lovable">
+	
+	
+	<span id="lovable-badge-divider" aria-hidden="true"></span>
+	
+	<button 
+		id="lovable-badge-close"
+		aria-label="Dismiss"
+		title="Dismiss"
+		type="button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" aria-hidden="true">
+			<path d="M10.646 4.646a.5.5 0 1 1 .707.708L8.707 8l2.646 2.646a.5.5 0 1 1-.707.707L8 8.707l-2.646 2.646a.5.5 0 1 1-.708-.707L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708L8 7.293l2.646-2.647Z"/>
+		</svg>
+	</button>
+</aside>
+<script>
+	// Don't show the lovable-badge if the page is in an iframe or if it's being rendered by puppeteer (screenshot service)
+	if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
+		// the page is in an iframe
+		var badge = document.getElementById('lovable-badge');
+		if (badge) {
+			badge.style.display = 'none';
+		}
+	}
+
+	// Add click event listener to close button with animation
+	var closeButton = document.getElementById('lovable-badge-close');
+	if (closeButton) {
+		closeButton.addEventListener('click', function(event) {
+			event.preventDefault();
+			event.stopPropagation();
+			var badge = document.getElementById('lovable-badge');
+			if (badge) {
+				badge.classList.add('closing');
+				setTimeout(function() {
+					if (badge) {
+						badge.style.display = 'none';
+					}
+				}, 240);
+			}
+		});
+	}
+</script>
+<script>
+(function(){
+  function init(){
+    var btn = document.querySelector('button[aria-label="Toggle menu"]');
+    var nav = document.querySelector('header nav');
+    if(!btn || !nav) return;
+    // Build mobile drawer by cloning desktop nav links
+    var drawer = document.createElement('div');
+    drawer.id = 'mobile-menu';
+    drawer.style.cssText = 'display:none;position:fixed;top:64px;left:0;right:0;bottom:0;background:var(--color-background,#fff);z-index:50;padding:24px;overflow-y:auto;border-top:1px solid var(--color-border,#e5e5e5);';
+    var inner = document.createElement('div');
+    inner.style.cssText = 'display:flex;flex-direction:column;gap:18px;max-width:640px;margin:0 auto;';
+    nav.querySelectorAll('a').forEach(function(a){
+      var c = a.cloneNode(true);
+      c.removeAttribute('class');
+      c.style.cssText = 'font-size:18px;font-weight:500;color:var(--color-foreground,#111);text-decoration:none;padding:8px 0;border-bottom:1px solid var(--color-border,#eee);';
+      inner.appendChild(c);
+    });
+    drawer.appendChild(inner);
+    document.body.appendChild(drawer);
+    var open = false;
+    function set(v){
+      open = v;
+      drawer.style.display = v ? 'block' : 'none';
+      btn.setAttribute('aria-expanded', v ? 'true' : 'false');
+      document.body.style.overflow = v ? 'hidden' : '';
+    }
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      set(!open);
+    });
+    // Close drawer on link click
+    drawer.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){ set(false); });
+    });
+    // Close on resize to desktop
+    window.addEventListener('resize', function(){
+      if(window.innerWidth >= 768) set(false);
+    });
+  }
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script>
+</body></html>
